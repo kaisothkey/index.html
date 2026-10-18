@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="works.html">Works</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+
+<style>
+body {
+  background-image: url('ok.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+<form action="https://formsubmit.co" method="POST">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" size="30" placeholder="Your Name" required><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" size="30" placeholder="Your Email" required><br><br>
+
+  <label for="message">Your Message:</label><br>
+  <textarea id="message" name="message" rows="4" size="30" placeholder="Type your message here..." required></textarea><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
